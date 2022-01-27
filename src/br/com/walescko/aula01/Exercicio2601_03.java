@@ -7,7 +7,7 @@ package br.com.walescko.aula01;
 
 import java.util.Scanner;
 
-public class Exercicio26001_03 {
+public class Exercicio2601_03 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
