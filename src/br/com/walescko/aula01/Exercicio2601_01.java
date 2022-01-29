@@ -1,5 +1,9 @@
 //Exercicios da aula do curso de Java - AlfaMídia - projeto +praTi
 //Escreva um programa para ler 2 valores e escrever na tela o maior deles
+
+//@atuhor Walescko
+//since 01/27/2022
+
 package br.com.walescko.aula01;
 
 import java.util.Scanner;

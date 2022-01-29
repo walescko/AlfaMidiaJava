@@ -2,6 +2,10 @@
 //do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze.
 //Escreva um programa que leia o número de maçãs compradas,
 //calcule e escreva o valor total da compra.
+
+//@atuhor Walescko
+//since 01/27/2022
+
 package br.com.walescko.aula01;
 
 import java.util.Scanner;

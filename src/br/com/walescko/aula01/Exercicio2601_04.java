@@ -2,6 +2,9 @@
 //alunos de uma classe. O algoritmo deverá ler, além das notas, o código
 //do aluno e deverá ser encerrado quando o código for igual a zero.
 
+//@atuhor Walescko
+//since 01/27/2022
+
 package br.com.walescko.aula01;
 
 import java.util.Scanner;
