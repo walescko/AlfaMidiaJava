@@ -47,5 +47,6 @@ public class Exercicio2601_05 {
         System.out.println("O menor número digitado é: " + menor);
         System.out.println("Fim");
 
+        scan.close();
     }
 }

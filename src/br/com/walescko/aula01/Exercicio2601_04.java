@@ -40,5 +40,7 @@ public class Exercicio2601_04 {
             System.out.print("\nDigite o código no próximo aluno: ");
             codigoAluno = scan.nextInt();
         }
+
+        scan.close();
     }
 }

@@ -38,6 +38,7 @@ public class Exercicio2601_03 {
 
         System.out.format("O salário líquido de R$ %.2f é R$ %.2f, sendo o desconto do INSS igual %.2f", salarioBruto, salarioLiquido, descontoINSS);
 
+        scan.close();
     }
 
 }

@@ -28,5 +28,7 @@ public class Exercicio2601_01 {
             System.out.println(numero02);
         }
         System.out.println("\nFim\n");
+
+        scan.close();
     }
 }

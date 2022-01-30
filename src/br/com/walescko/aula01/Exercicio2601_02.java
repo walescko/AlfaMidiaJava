@@ -35,7 +35,7 @@ public class Exercicio2601_02 {
         System.out.println("A quantidade de maçãs compradas é " + quantidadeMacas);
         System.out.format("O valor a pagar pelas maçãs é %.2f", precoCompra);
 
-
+        scan.close();
 
     }
 }
