@@ -1,8 +1,8 @@
 //Escreva um algoritmo que leia 10 valores e encontre o maior e o
 //menor deles. Mostre o resultado.
+// * @author Walescko
+// * since 01/27/2022
 
-//@atuhor Walescko
-//since 01/27/2022
 
 
 package br.com.walescko.aula01;

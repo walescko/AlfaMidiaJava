@@ -3,9 +3,9 @@
 //Até R$2.500, 8%
 //Até R$4.800 10%
 //Maior que R$ 4.800 15%
+// * @author Walescko
+// * since 01/27/2022
 
-//@atuhor Walescko
-//since 01/27/2022
 
 package br.com.walescko.aula01;
 
