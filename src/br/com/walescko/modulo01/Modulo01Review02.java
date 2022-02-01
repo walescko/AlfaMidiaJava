@@ -18,14 +18,12 @@ public class Modulo01Review02 {
         double imc = weight/(height*height);
 
         System.out.printf("O IMC é %.2f\n", imc);
-        String classification = "";
 
         int i = 0;
         while (imc > weightImc[i]){
             i++;
         }
-        classification = imcClassification[i];
-        System.out.println("E a classificação é: " + classification);
+        System.out.println("E a classificação é: " + imcClassification[i]);
     }
 
     //metodo principal
