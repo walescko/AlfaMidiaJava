@@ -17,10 +17,10 @@ public class Modulo01Desafio01 {
         System.out.println("Tecle '1' para continuar e '0' para encerrar: ");
         int continue1 = scan.nextInt();
 
-        while (continue1 == 1){
+        do {
             System.out.println("Tecle '1' para continuar e '0' para encerrar: ");
             continue1 = scan.nextInt();
-        }
+        } while (continue1 == 1);
         System.out.println("FIM");
     }
 }
