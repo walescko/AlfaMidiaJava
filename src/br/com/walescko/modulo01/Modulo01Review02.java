@@ -3,7 +3,6 @@
  * since 02/01/2022
  **/
 
-
 package br.com.walescko.modulo01;
 
 import java.util.Scanner;
@@ -32,7 +31,6 @@ public class Modulo01Review02 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Calculo do IMC");
-
         System.out.print("Entre com a altura (m): ");
         double height = scan.nextDouble();
         System.out.print("Entre com o peso (kg): ");
