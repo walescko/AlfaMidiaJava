@@ -29,7 +29,7 @@ public class Modulo01Desafio02 {
         Scanner scan = new Scanner(System.in);
         System.out.println("PROGRAMA CALCULO IMC - Walescko");
         System.out.print("Tecle 's' para calcular o IMC ou 'n' para encerrar:");
-        String option = scan.next();
+        String option = scan.nextLine();
 
         switch (option.charAt(0)) {
             case 's': {
@@ -44,11 +44,11 @@ public class Modulo01Desafio02 {
                 break;
             }
             case 'n': {
-                System.out.println("Você encerrou o programa!");
+                System.out.println("Você encerrou o programa!\n");
                 break;
             }
             default:
-                System.out.println("Opção Inválida!");
+                System.out.println("Opção Inválida!\n");
                 returnOption();
         }
     }
@@ -59,7 +59,7 @@ public class Modulo01Desafio02 {
     }
 
     public static void main(String[] args) {
-    
+
         Option();
 
     }

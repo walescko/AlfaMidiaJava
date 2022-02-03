@@ -44,11 +44,11 @@ public class Modulo01Desafio01 {
                 break;
             }
             case 0: {
-                System.out.println("Você encerrou o programa!");
+                System.out.println("Você encerrou o programa!\n");
                 break;
             }
             default:
-                System.out.println("Opção Inválida!");
+                System.out.println("Opção Inválida!\n");
                 returnOption();
         }
     }
