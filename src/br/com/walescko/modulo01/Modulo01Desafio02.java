@@ -21,7 +21,7 @@ public class Modulo01Desafio02 {
         while (imc > weightImc[i]){
             i++;
         }
-        System.out.println("E a classificação é: " + imcClassification[i]);
+        System.out.println("E a classificação é: " + imcClassification[i]+ "\n");
         Option();
     }
 
@@ -59,7 +59,7 @@ public class Modulo01Desafio02 {
     }
 
     public static void main(String[] args) {
-
+    
         Option();
 
     }

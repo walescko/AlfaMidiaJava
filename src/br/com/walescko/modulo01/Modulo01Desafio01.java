@@ -21,12 +21,13 @@ public class Modulo01Desafio01 {
         while (imc > weightImc[i]){
             i++;
         }
-        System.out.println("E a classificação é: " + imcClassification[i]);
+        System.out.println("E a classificação é: " + imcClassification[i]+ "\n");
         Option();
     }
 
     public static void Option(){
         Scanner scan = new Scanner(System.in);
+
         System.out.print("Tecle '1' para calcular o IMC ou '0' para encerrar:");
         Integer option = scan.nextInt();
 
