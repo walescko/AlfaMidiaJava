@@ -5,14 +5,17 @@
  */
 package br.com.walescko.modulo02;
 
+import br.com.walescko.modulo02.imc.Imc;
+
 public class imcOO {
     public static void main(String[] args){
 
-        Double peso = 80.00;
-        Double altura = 1.80;
-
-        Double imc = (peso/(altura*altura));
         System.out.println("Calculo do IMC");
-        System.out.println("O imc é " + imc);
+
+        Imc imc1 = new Imc(80, 1.80);
+        imc1.calcularImc();
+        System.out.println("O IMC é " + imc1.imc);
+        System.out.printf("O IMC é %.4f", imc1.imc);
+
     }
 }
