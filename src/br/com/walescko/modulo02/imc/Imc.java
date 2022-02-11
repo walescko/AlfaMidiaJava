@@ -7,9 +7,9 @@ package br.com.walescko.modulo02.imc;
 
 public class Imc {
 
-    public double weigth;
-    public double heigth;
-    public double imc;
+    private double weigth;
+    private double heigth;
+    private double imc;
 
     public Imc(double weigth, double heigth) {
         this.weigth = weigth;
@@ -29,5 +29,26 @@ public class Imc {
         if (this.imc < 39.9) {classificacao = "obesidade";}
         if (this.imc >= 39.9) {classificacao = "obesidade grave";}
         return classificacao;
+    }
+
+    public double getWeigth() {
+        return weigth;
+    }
+
+    public void setWeigth(double weigth) {
+        if (weigth <=0) return;
+        this.weigth = weigth;
+    }
+
+    public double getHeigth() {
+        return heigth;
+    }
+
+    public void setHeigth(double heigth) {
+        this.heigth = heigth;
+    }
+
+    public double getImc() {
+        return imc;
     }
 }
