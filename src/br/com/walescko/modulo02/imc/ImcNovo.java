@@ -14,14 +14,14 @@ public class ImcNovo extends Imc{
     public String classificacao(){
         this.calcularImc();
         String classificacao = "";
-        if (this.imc < 16) {classificacao = "Magreza grave";}
-        if (this.imc < 17) {classificacao = "Magreza moderada";}
-        if (this.imc < 18.5) {classificacao = "Magreza leve";}
-        if (this.imc < 25) {classificacao = "Saudável";}
-        if (this.imc < 30) {classificacao = "Sobrepeso";}
-        if (this.imc < 35) {classificacao = "Obesidade Grau I";}
-        if (this.imc < 40) {classificacao = "Obesidade Grau II";}
-        if (this.imc >= 40) {classificacao = "Obesidade Grau III";}
+        if (this.getImc() < 16) {classificacao = "Magreza grave";}
+        if (this.getImc() < 17) {classificacao = "Magreza moderada";}
+        if (this.getImc() < 18.5) {classificacao = "Magreza leve";}
+        if (this.getImc() < 25) {classificacao = "Saudável";}
+        if (this.getImc() < 30) {classificacao = "Sobrepeso";}
+        if (this.getImc() < 35) {classificacao = "Obesidade Grau I";}
+        if (this.getImc() < 40) {classificacao = "Obesidade Grau II";}
+        if (this.getImc() >= 40) {classificacao = "Obesidade Grau III";}
         return classificacao;
 
 
