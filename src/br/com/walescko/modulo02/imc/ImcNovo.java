@@ -11,7 +11,8 @@ public class ImcNovo extends Imc{
         super(weigth, heigth);
     }
 
-    public String classificacao(){
+    @Override
+    public String classificacao() {
         this.calcularImc();
         String classificacao = "";
         if (this.getImc() < 16) {classificacao = "Magreza grave";}
@@ -23,8 +24,5 @@ public class ImcNovo extends Imc{
         if (this.getImc() < 40) {classificacao = "Obesidade Grau II";}
         if (this.getImc() >= 40) {classificacao = "Obesidade Grau III";}
         return classificacao;
-
-
     }
-
 }
