@@ -1,8 +1,5 @@
 1. esse é nosso primeiro texto controlado pelo git;
 2. esse é para o segundo commit.
 3. continuo no main.
-<<<<<<< HEAD
+4. editando no github.
 6. teste de pull
-=======
-4. editando no github
->>>>>>> d9936e2ca84c53eda8cd25c45d030f9c2de2c77c
