@@ -6,6 +6,7 @@
 package br.com.walescko.modulo02;
 
 import br.com.walescko.modulo02.imc.Imc;
+import br.com.walescko.modulo02.imc.ImcLeitura;
 import br.com.walescko.modulo02.imc.ImcNovo;
 
 public class imcOO {
@@ -22,6 +23,12 @@ public class imcOO {
 
         System.out.println("A classificação é " + imc2.classificacao());
         System.out.printf("A classificação é %s\n", imc2.classificacao());
+
+        ImcLeitura imc3 = new ImcLeitura();
+        imc3.lerPeso();
+        imc3.lerAltura();
+        System.out.println("A classificação é " + imc3.classificacao());
+
 
     }
 }
