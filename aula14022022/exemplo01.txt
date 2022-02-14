@@ -1,3 +1,4 @@
 1. esse é nosso primeiro texto controlado pelo git;
 2. esse é para o segundo commit.
 3. continuo no main.
+6. teste de pull
